@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'components/Modal';
 import { IconDownload } from '@tabler/icons';
 import StyledWrapper from './StyledWrapper';
-import Bruno from 'components/Bruno';
+import GrumpyCat from 'components/GrumpyCat';
 import exportBrunoCollection from 'utils/collections/export';
 import exportPostmanCollection from 'utils/exporters/postman-collection';
 import { cloneDeep } from 'lodash';
@@ -34,7 +34,7 @@ const ShareCollection = ({ onClose, collection }) => {
           <div className="space-y-2"> 
             <div className="flex border border-gray-200 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-500/10 items-center p-3 rounded-lg transition-colors cursor-pointer" onClick={handleExportBrunoCollection}>
               <div className="mr-3 p-1 rounded-full">
-                <Bruno width={28} />
+                <GrumpyCat width={28} />
               </div>
               <div className="flex-1">
                 <div className="font-medium">Bruno Collection</div>

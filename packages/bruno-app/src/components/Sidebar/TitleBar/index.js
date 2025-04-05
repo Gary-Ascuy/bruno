@@ -1,5 +1,5 @@
 import toast from 'react-hot-toast';
-import Bruno from 'components/Bruno';
+import GrumpyCat from 'components/GrumpyCat';
 import Dropdown from 'components/Dropdown';
 import CreateCollection from '../CreateCollection';
 import ImportCollection from 'components/Sidebar/ImportCollection';
@@ -84,9 +84,9 @@ const TitleBar = () => {
       <div className="flex items-center">
         <button className="flex items-center gap-2 text-sm font-medium" onClick={handleTitleClick}>
           <span aria-hidden>
-            <Bruno width={30} />
+            <GrumpyCat width={30} />
           </span>
-          bruno
+          Grumpy Cat
         </button>
         <div className="collection-dropdown flex flex-grow items-center justify-end">
           <Dropdown onCreate={onMenuDropdownCreate} icon={<MenuIcon />} placement="bottom-start">
