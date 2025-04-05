@@ -67,7 +67,7 @@ const Welcome = () => {
 
       </div>
       <div className="text-xl font-semibold select-none">Grumpy Cat</div>
-      <div className="mt-4">{t('WELCOME.ABOUT_BRUNO')}</div>
+      <div className="mt-4">{t('WELCOME.ABOUT_GRUMPY_CAT')}</div>
 
       <div className="uppercase font-semibold heading mt-10">{t('COMMON.COLLECTIONS')}</div>
       <div className="mt-4 flex items-center collection-options select-none">
@@ -115,7 +115,7 @@ const Welcome = () => {
         </div>
         <div className="flex items-center mt-2">
           <a
-            href="https://github.com/usebruno/bruno/issues"
+            href="https://github.com/Gary-Ascuy/bruno/issues"
             aria-label="Report issues on GitHub"
             target="_blank"
             rel="noopener noreferrer"
@@ -127,7 +127,7 @@ const Welcome = () => {
         </div>
         <div className="flex items-center mt-2">
           <a
-            href="https://github.com/usebruno/bruno"
+            href="https://github.com/Gary-Ascuy/bruno"
             aria-label="Go to GitHub repository"
             target="_blank"
             rel="noopener noreferrer"
