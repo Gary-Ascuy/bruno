@@ -115,3 +115,6 @@ npm test --workspaces --if-present
     - Example: feature/dark-mode
   - bugfix/[bug name]: This branch should contain only bug fixes for a specific bug
     - Example bugfix/bug-1
+
+## References 
+- Thanks to [Lima Studio - Origami Filled Line Vectors](https://www.svgrepo.com/svg/423820/cat-origami-paper) for the icon
